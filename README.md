@@ -7,23 +7,34 @@
   </p>
 </div>
 
-# Takehome Test (Data Science)
+#Takehome Test (Data Science)
 
-Below are some JSON profiles representing fictional customers from an e-commerce company. The profiles contain information about the customer, their orders, their transactions, what payment methods they used and whether the customer is fraudulent or not.
+## Data
 
-Your task is to:
+In the data directory, you will find 3 separate csv files which contain some fictional data, as follows:
+- transactions.csv - card transactions data, including transaction amounts, merchant information and whether the transaction is marked as fraudulent or not
+- customers.csv - customer data, including name, date of birth, address and some demographic information
+- transaction_customers.csv - mapping of transactions and customers 
 
-- Transform the JSON profiles into a dataframe of feature vectors.
-- Provide exploratory analysis of the dataset, and to summarise and explain the key trends in the data, explaining which factors appear to be most important in predicting fraud.
-- Construct a model to predict if a customer is fraudulent based on their profile.
-- Report on the models success and show what features are most important in that model.
+
+## Your task is to
+- Provide exploratory analysis of the datasets - summarise and explain the key trends seen in the data, which factors appear to be most important in predicting fraud
+- Perform relevant feature engineering and construct a model (or multiple models, if you want) to predict if a transaction is fraudulent or not
+- Report on the model performance and show what features are most important in that model. Describe, high level, how would your model be used in a production setting
 
 Please use Python for this exercise. You can use whatever external software libraries you think are appropriate.
 
-We're looking for
-
+## We're looking for
+- High quality analysis and modelling
 - Readable code
-- High quality analysis
-- Clear explanations of the analysis and conclusions
+- Clear explanations of the analysis and conclusions you reached
 
-**Please don't spend more than 3-4 hours on this task**. You may find that there are more aspects of the data that you can't realistically investigate in that time, and that's fine. If that is the case, please just describe what your next steps might be if there were more time allocated to the task.
+
+Please don't spend more than 3-4 hours on this task. You will not be judged on model performance, but rather on your approach on solving the problem. If there are aspects of the data that you can’t investigate in the given time, mention them as next steps for improvement at the end. 
+
+## Submitting your solution
+Once you've completed the test, please compress your files (via zip or tar) and return them as a link or email attachment in reply to your test invite. 
+
+Once we receive it, a member of our team will review and we'll get back to you as soon as possible.
+
+Thanks!
