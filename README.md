@@ -32,6 +32,9 @@ Please use Python for this exercise. You can use whatever external software libr
 
 Please don't spend more than 3-4 hours on this task. You will not be judged on model performance, but rather on your approach on solving the problem. If there are aspects of the data that you can’t investigate in the given time, mention them as next steps for improvement at the end. 
 
+## Follow-up
+Answer the questions in the [FOLLOW-UP.md](./FOLLOW-UP.md) file.
+
 ## Submitting your solution
 Once you've completed the test, please compress your files (via zip or tar) and return them as a link or email attachment in reply to your test invite. 
 
