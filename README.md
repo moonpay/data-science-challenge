@@ -7,14 +7,14 @@
   </p>
 </div>
 
-#Takehome Test (Data Science)
+# Takehome Test (Data Science)
 
 ## Data
 
 In the data directory, you will find 3 separate csv files which contain some fictional data, as follows:
-- transactions.csv - card transactions data, including transaction amounts, merchant information and whether the transaction is marked as fraudulent or not
-- customers.csv - customer data, including name, date of birth, address and some demographic information
-- transaction_customers.csv - mapping of transactions and customers 
+- transactions.csv - card transactions data, including transaction amount and currency, type and status of the transaction, device information and whether the transaction is marked as fraudulent or not
+- customers.csv - customer data, including country, state and year of birth
+- transactions_customers.csv - mapping of transactions and customers
 
 
 ## Your task is to
